@@ -1,0 +1,81 @@
+* {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 0.5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+td {
+  padding: 8px;
+}
+
+th {
+  padding: 8px;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  border: 10px solid rgb(0, 64, 184);
+}
+
+td,
+th {
+  border: 2px solid rgb(0, 64, 184);
+}
+
+td a {
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+}
+
+td .edit {
+  background-color: rgb(0, 181, 0);
+}
+
+td .delete {
+  background-color: rgb(255, 0, 0);
+}
+
+nav a {
+  color: rgb(240, 240, 240);
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  margin: 0 3px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.tampil {
+  background-color: rgb(0, 64, 184);
+}
+
+.tambah {
+  background-color: rgb(0, 181, 0);
+}
+
+.logout {
+  background-color: rgb(255, 0, 0);
+}
